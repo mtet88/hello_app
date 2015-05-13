@@ -7,4 +7,8 @@ class ApplicationController < ActionController::Base
     render text: "Hola mundo!"
   end
   
+  def nddn
+    render text: "Yo amo a NDDN"
+  end
+  
 end
